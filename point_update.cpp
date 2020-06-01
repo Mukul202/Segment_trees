@@ -3,6 +3,7 @@ using namespace std;
 #define MAXN 100005
 int tree[4*MAXN+1];
 int a[MAXN];
+//1-based indexing
 void build(int node,int s,int e){
     //leaf node
     if(s==e){
